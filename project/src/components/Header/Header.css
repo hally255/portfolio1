@@ -1,8 +1,21 @@
-.redbkgd {
-    background-color: red;
+.redBkgd {
+    background-color: purple;
+    color: white;
+}
+
+.redBkgd button {
+    background-color: lavender;
+    border-radius: 8px;
 }
 
 .blueBkgd {
-    background-color: blue;
+    background-color: seagreen;
     color: white;
+}
+
+div {
+    width: 85%;
+    margin: auto;
+    padding: 1em;
+    border-radius: 5em;
 }
