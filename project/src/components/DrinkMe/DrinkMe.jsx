@@ -20,6 +20,15 @@ export default class DrinkMe extends Component {
                        this.setState({size: 1});
                    }
                 } }>Drink Me!</button>
+
+                <button onClick={() => {
+                    if(this.state.size >= 1) {
+                        this.setState({size: this.state.size - 1});
+                       } else {
+                           this.setState({size: 1});
+                       }
+                }}>Eat Me!</button>
+
                 <p style={{ fontSize: (this.state.size)}}>{this.state.size}</p>
             </div>
         )

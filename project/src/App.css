@@ -16,6 +16,7 @@ button {
   background-color: silver;
   padding: 5px;
   color: black;
+  margin-left: 1em;
 }
 
 .App-logo {
