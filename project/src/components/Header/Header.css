@@ -1,6 +1,9 @@
 .bkgd1 {
     background-color: purple;
     color: white;
+    width: 85%;
+    margin: auto;
+    padding: 1em;
 }
 
 .bkgd1 button {
@@ -11,16 +14,12 @@
 .bkgd2 {
     background-color: seagreen;
     color: white;
+    width: 85%;
+    margin: auto;
+    padding: 1em;
 }
 
 .bkgd2 button {
     background-color: mediumseagreen;
     border-radius: 8px;
-}
-
-div {
-    width: 85%;
-    margin: auto;
-    padding: 1em;
-    border-radius: 5em;
 }
