@@ -1,4 +1,5 @@
-import { Component } from "react"
+import { Component } from "react";
+import './DrinkMe.css';
 
 export default class DrinkMe extends Component {
     constructor(props) {
@@ -11,7 +12,7 @@ export default class DrinkMe extends Component {
 
     render() {
         return(
-            <div className="">
+            <div className="drinkMe">
                 <button onClick={ () => {
                    if(this.state.size >= 1) {
                     this.setState({size: this.state.size + 1});
