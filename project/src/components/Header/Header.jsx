@@ -15,7 +15,7 @@ export default class Header extends Component {
    }
    
     render() {
-        let head_class = this.state.red ? "redBkgd" : "blueBkgd";
+        let head_class = this.state.red ? "bkgd1" : "bkgd2";
 
         return(
             <div className={head_class}>

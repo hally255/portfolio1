@@ -1,16 +1,21 @@
-.redBkgd {
+.bkgd1 {
     background-color: purple;
     color: white;
 }
 
-.redBkgd button {
-    background-color: lavender;
+.bkgd1 button {
+    background-color: mediumpurple;
     border-radius: 8px;
 }
 
-.blueBkgd {
+.bkgd2 {
     background-color: seagreen;
     color: white;
+}
+
+.bkgd2 button {
+    background-color: mediumseagreen;
+    border-radius: 8px;
 }
 
 div {
