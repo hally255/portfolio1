@@ -1,13 +1,26 @@
-import { useState } from "react"
+import { Component } from "react"
 
-export default function DrinkMe() {
-    const [size, setSize] = useState(1);
-    return(
-        <div className="">
-            <p>{size}</p>
-            <button onClick={ () => {
-                setSize(size + 1);
-            } }>Drink Me!</button>
-        </div>
-    )
+export default class DrinkMe extends Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            fontSize: 1
+        }
+    }
+
+
+    render() {
+        return(
+            <div className="">
+                <button onClick={ () => {
+                   if(this.state.size >= 1) {
+                    this.setState({size: this.state.size + 1});
+                   } else {
+                       this.setState({size: 1});
+                   }
+                } }>Drink Me!</button>
+                <p style={{ fontSize: (this.state.size)}}>{this.state.size}</p>
+            </div>
+        )
+    }
 }
