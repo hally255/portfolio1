@@ -3,17 +3,7 @@
     color: white;
 }
 
-.bkgd1 button {
-    background-color: mediumpurple;
-    border-radius: 8px;
-}
-
 .bkgd2 {
     background-color: seagreen;
     color: white;
-}
-
-.bkgd2 button {
-    background-color: mediumseagreen;
-    border-radius: 8px;
 }
