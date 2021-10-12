@@ -14,7 +14,7 @@ export default class DrinkMe extends Component {
         return(
             <div className="drinkMe">
                 <button onClick={ () => {
-                   if(this.state.size >= 1) {
+                   if(this.state.size < 50) {
                     this.setState({size: this.state.size + 1});
                    } else {
                        this.setState({size: 1});
@@ -22,7 +22,7 @@ export default class DrinkMe extends Component {
                 } }>Drink Me!</button>
 
                 <button onClick={() => {
-                    if(this.state.size >= 1) {
+                    if(this.state.size < 50) {
                         this.setState({size: this.state.size - 1});
                        } else {
                            this.setState({size: 1});
