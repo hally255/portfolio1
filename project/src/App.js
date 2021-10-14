@@ -1,8 +1,5 @@
 import './App.css';
 
-const profile = [
-  
-];
 
 function App() {
   return (
