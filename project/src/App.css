@@ -10,15 +10,6 @@ div {
   padding: 1em;
 }
 
-button {
-  border-radius: 5px;
-  border: none;
-  background-color: silver;
-  padding: 5px;
-  color: black;
-  margin-left: 1em;
-}
-
 .App-logo {
   height: 40vmin;
   pointer-events: none;
