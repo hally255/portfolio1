@@ -11,7 +11,7 @@ export default function Comments() {
     return (
         <div className="comments">
             <form onSubmit={handleSubmit}>
-            <input className="textBox" type="text" />
+            <input className="textBox" type="text" onSubmit="" />
             <button className="enter" type="sumbit">Enter</button>
             </form>
         </div>
