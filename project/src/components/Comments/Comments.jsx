@@ -3,15 +3,19 @@ import './Comments.css';
 
 export default function Comments() {
 
-    const [comment, setComment] = useState([]);
+    const [comment, setComment] = useState("");
 
     return (
         <div className="comments">
-            <input className="textBox" type="text" onBlur={(e) => {
-                console.log(e.target.value);
-                setComment(comment.push(e.target.value));
+            <form>
+            <input className="textBox" type="text" onFocus={(e) => {
+                setComment(e.target.value);
+                console.log(comment);
             }
-            } />
+            }/>
+            <button type="submit" className="enter">Enter</button>
+            </form>
+            <p>{comment}</p>
         </div>
     )
 }
