@@ -2,11 +2,11 @@ import './App.css';
 import './components/Chat/'
 
 const profile = {
-  name: 'Sarah Geraci',
-  username: 'Hally255',
-  about: 'Student at University of Central Florida',
-  likes: 'Video Games, Reading, Art, and Reptiles',
-  dislikes: 'Homework, Test, Exams, and Rude People'
+  name: '',
+  username: '',
+  about: '',
+  likes: '',
+  dislikes: ''
 }
 
 function App() {
