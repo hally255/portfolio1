@@ -7,7 +7,6 @@ export default function Comments() {
 
     const handleSubmit = (event) => {
         event.preventDefault();
-        
     }
 
     return (
