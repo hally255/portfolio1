@@ -12,7 +12,7 @@ export default function Profile() {
         return(
             <div>
                 <div className="imgDiv">
-                    <img src="" alt="user" />
+                    <img src="me.png" alt="user" />
                 </div>
                 <h1>{profile.username}</h1>
                 <h3>{profile.name}</h3>
