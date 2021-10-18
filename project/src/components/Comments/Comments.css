@@ -1,6 +1,9 @@
 .comments {
     margin: 25px;
     padding: 25px;
+    margin-top: 0;
+    padding-top: 0;
+    
 }
 
 .textBox {
@@ -9,8 +12,12 @@
 }
 
 .enter {
-    border: none;
     background-color: rgba(105, 0, 109, 0.7);
+    margin: 10px;
+    border-radius: 10px;
+    border: none;
+    text-decoration: none;
     color: white;
-    height: 50px;
+    padding: 8px 12px;
+    font-size: 1.2em;
 }
