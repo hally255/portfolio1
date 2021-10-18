@@ -3,7 +3,7 @@ import './Comments.css';
 
 export default function Comments() {
 
-    const [comment, setComment] = useState("");
+    const [comment, setComment] = useState(""); 
 
     return (
         <div className="comments">
