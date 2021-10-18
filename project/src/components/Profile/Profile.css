@@ -1,7 +1,7 @@
 .userDiv {
     text-align: left;
     width: 250px;
-    height: auto;
+    height: 100vh;
     padding: 1.5em;
     background-color: rgba(105, 0, 109, 0.7);
     color: white;
