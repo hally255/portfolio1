@@ -1,5 +1,7 @@
 .feed {
     background-color: lightslategray;
+    width: auto;
+    height: auto;
 }
 
 .feed button {

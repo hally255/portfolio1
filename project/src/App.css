@@ -9,7 +9,7 @@
 div {
   margin: auto;
   padding: 1em;
-  display: flex;
+  display: inline-block;
 }
 
 .App-logo {
