@@ -1,10 +1,12 @@
+import './Comments.css';
+
 export default function Comments() {
 
     return (
         <div className="comments">
             <form>
-            <input type="text" placeholde="Comments..." />
-            <input type="submit" value="submit" />
+            <input className="textBox" type="text" placeholde="Comments..." />
+            <input className="enter" type="submit" value="Enter" />
             </form>
         </div>
     )

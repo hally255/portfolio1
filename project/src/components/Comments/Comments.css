@@ -1,0 +1,16 @@
+.comments {
+    margin: 25px;
+    padding: 25px;
+}
+
+.textBox {
+    width: 600px;
+    height: 50px;
+}
+
+.enter {
+    border: none;
+    background-color: rgba(105, 0, 109, 0.7);
+    color: white;
+    height: 50px;
+}
