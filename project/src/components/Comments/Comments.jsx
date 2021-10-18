@@ -17,7 +17,7 @@ export default function Comments() {
             }} />
             <input className="enter" type="submit" value="Enter" />
             </form>
-
+            <div>{comment.map()}</div>
         </div>
     )
 }
