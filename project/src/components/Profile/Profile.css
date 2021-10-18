@@ -1,4 +1,6 @@
 .userDiv {
     text-align: left;
     width: 25%;
+    float: left;
+    background-color: rgba(red, green, blue, alpha);
 }
