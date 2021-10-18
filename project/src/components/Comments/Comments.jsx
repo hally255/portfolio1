@@ -6,7 +6,9 @@ export default function Comments() {
         <div className="comments">
             <form>
             <input className="textBox" type="text" placeholde="Comments..." />
-            <input className="enter" type="submit" value="Enter" />
+            <input className="enter" type="submit" value="Enter" onSubmit={(c) => {
+                
+            }} />
             </form>
         </div>
     )
