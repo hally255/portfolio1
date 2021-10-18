@@ -1,4 +1,5 @@
-import { useState } from "react"
+import { useState } from "react";
+import './dog.JPG';
 
 export default function Feed(props) {
 
@@ -7,7 +8,7 @@ export default function Feed(props) {
     return (
         <div className="feed">
             <h2>Look at my dog!!</h2>
-            <img src='./dog.JPG' alt='cute dog' />
+            <img src='dog.JPG' alt='cute dog' />
         </div>
     )
 }
