@@ -1,4 +1,5 @@
 import './Profile.css';
+import './me.png';
 
 export default function Profile() {
     const profile = {
@@ -11,9 +12,7 @@ export default function Profile() {
 
         return(
             <div>
-                <div className="imgDiv">
-                    <img src="me.png" alt="user" />
-                </div>
+                <img src="./me.png" alt="user" />
                 <h1>{profile.username}</h1>
                 <h3>{profile.name}</h3>
                 <h3>{profile.about}</h3>
