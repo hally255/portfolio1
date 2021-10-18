@@ -1,4 +1,5 @@
 import './App.css';
+import './components/Chat/'
 
 const profile = {
   name: 'Sarah Geraci',
