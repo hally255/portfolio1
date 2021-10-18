@@ -2,7 +2,6 @@
 
 .App {
   text-align: center;
-  width: 80%;
   margin: auto;
   font-family: Lato;
 }
@@ -10,6 +9,7 @@
 div {
   margin: auto;
   padding: 1em;
+  display: flex;
 }
 
 .App-logo {

@@ -1,6 +1,5 @@
 import { useState } from "react";
 import image from './dog.JPG';
-import like from './like.png';
 import './Feed.css';
 
 export default function Feed(props) {
@@ -13,8 +12,7 @@ export default function Feed(props) {
             <img src={image} alt='cute dog' />
             <button onClick={() => {
                 setLikes(likes + 1);
-            }}><img src={like} alt="like" /></button>
-            <p>{likes}</p>
+            }}>Hearts:  {likes}</button>
         </div>
     )
 }
