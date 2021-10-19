@@ -12,6 +12,7 @@ export default function Feed(props) {
             <h4>Posted: March 15, 2012</h4>
             <img src={image} alt='cute dog' />
             <p>This is Willy! He's the best dog in the world!!</p>
+            <br />
             <button onClick={() => {
                 setLikes(likes + 1);
             }}>Likes:  {likes}</button>
