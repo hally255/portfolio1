@@ -9,6 +9,7 @@ export default function Feed(props) {
     return (
         <div className="feed">
             <h2>Look at my dog!!</h2>
+            <h4>Posted: March 15, 2012</h4>
             <img src={image} alt='cute dog' />
             <button onClick={() => {
                 setLikes(likes + 1);
