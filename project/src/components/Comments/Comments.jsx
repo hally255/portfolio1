@@ -4,6 +4,7 @@ import './Comments.css';
 export default function Comments() {
 
     const [comment, setComment] = useState([]);
+    const []
 
     return (
         <div className="comments">
