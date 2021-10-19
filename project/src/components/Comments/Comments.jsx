@@ -14,14 +14,15 @@ export default function Comments() {
                 console.log(type);
             }
             }/>
-            <button className="enter" onSubmit={() => {
+            <button className="enter" onClick={(e) => {
+                e.preventDefault();
                 setComment(comment.concat(type));
                 console.log(comment);
             }}>Enter</button>
             </form>
             <div className="section">{
                 comment.map((element) => {
-                    return(<p>{element}</p>)
+                    return(<p className="commentList">{element}<br /></p>)
                 })
 }           </div>
         </div>

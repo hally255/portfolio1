@@ -25,6 +25,7 @@
 .section p {
     margin: 0;
     padding-left: 10px;
+    margin-bottom: 15px;
     text-align: left;
     border-left: solid grey 2px;
     width: 600px;
