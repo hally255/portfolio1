@@ -15,7 +15,8 @@ export default function Comments() {
             }
             }/>
             <button className="enter" onSubmit={() => {
-                setComment(comment.concat(type))
+                setComment(comment.concat(type));
+                console.log(comment);
             }}>Enter</button>
             </form>
             <div className="section">{
