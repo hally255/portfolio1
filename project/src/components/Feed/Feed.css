@@ -19,7 +19,9 @@
 }
 
 .feed p {
-    
+    text-align: left;
+    padding: 25px;
+    border-bottom: solid black 2px;
 }
 
 .feed img {
