@@ -4,17 +4,19 @@ import './Comments.css';
 export default function Comments() {
 
     const [comment, setComment] = useState([]);
-    const []
+    const [type, setType] = useState("");
 
     return (
         <div className="comments">
             <form>
-            <input className="textBox" type="text" onBlur={(e) => {
-                setComment(comment.concat(e.target.value));
-                console.log(comment);
+            <input className="textBox" type="text" onChange={(e) => {
+                setType(e.target.value);
+                console.log(type);
             }
             }/>
-            <button className="enter">Enter</button>
+            <button className="enter" onSubmit={() => {
+                setComment(comment.concat(type))
+            }}>Enter</button>
             </form>
             <div className="section">{
                 comment.map((element) => {
