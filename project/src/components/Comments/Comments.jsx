@@ -3,22 +3,20 @@ import './Comments.css';
 
 export default function Comments() {
 
-    const [comment, setComment] = useState(""); 
-    const [array, setArray] = useState([]);
+    const [comment, setComment] = useState([]);
 
     return (
         <div className="comments">
             <form>
-            <input className="textBox" type="text" onFocus={(e) => {
-                setComment(e.target.value);
+            <input className="textBox" type="text" onBlur={(e) => {
+                setComment(comment.concat(e.target.value));
                 console.log(comment);
-                setArray(array.concat(comment))
             }
             }/>
-            <button type="submit" className="enter">Enter</button>
+            <button className="enter">Enter</button>
             </form>
-            <div>{
-                array.map((element) => {
+            <div className="section">{
+                comment.map((element) => {
                     return(<p>{element}</p>)
                 })
 }           </div>

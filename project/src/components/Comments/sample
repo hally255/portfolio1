@@ -1,5 +1,0 @@
-(e) => {
-                setComment(e.target.value);
-                console.log(comment);
-            }
-            }

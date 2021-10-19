@@ -8,7 +8,7 @@
 
 .textBox {
     width: 600px;
-    height: 50px;
+    height: 30px;
 }
 
 .enter {
@@ -20,4 +20,12 @@
     color: white;
     padding: 8px 12px;
     font-size: 1.2em;
+}
+
+.section p {
+    margin: 0;
+    padding-left: 10px;
+    text-align: left;
+    border-left: solid grey 2px;
+    width: 600px;
 }
