@@ -1,0 +1,16 @@
+.userDiv {
+    text-align: left;
+    width: 250px;
+    height: 100vh;
+    padding: 1.5em;
+    background-color: rgba(105, 0, 109, 0.7);
+    color: white;
+}
+
+.userDiv p {
+    font-size: 16px;
+}
+
+.userDiv h3 {
+    font-size: 20px;
+}

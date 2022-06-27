@@ -1,0 +1,29 @@
+.feed {
+    margin: 25px;
+    padding: 25px;
+    margin-top: 0;
+    padding-top: 0;
+    height: auto;
+}
+
+.feed button {
+    background-color: rgba(105, 0, 109, 0.7);
+    margin: 10px;
+    border-radius: 10px;
+    border: none;
+    text-decoration: none;
+    color: white;
+    padding: 8px 12px;
+    font-size: 1.2em;
+    display: block;
+}
+
+.feed p {
+    text-align: left;
+    padding: 25px;
+    border-bottom: solid black 2px;
+}
+
+.feed img {
+    width: 800px;
+}
